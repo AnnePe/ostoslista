@@ -27,7 +27,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-         <Image style={styles.image} source={{uri: 'https://www.sttinfo.fi/data/images/00304/be7db042-6b61-49f9-9bcd-7fd41b7bc35d.jpg'}} />
+         
         <TextInput placeholder='Mitä ostetaan?'  style={styles.input} onChangeText={text => setText(text)} value={text}/>
         
       <View style={styles.button2}>
@@ -56,6 +56,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    margin:60,
   },
   list: {
     margin:10,
